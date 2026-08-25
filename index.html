@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <body>
+    <h1>CSV archive test</h1>
+
+    <select id="file">
+      <option value="data/run-1.csv">Run 1</option>
+      <option value="data/run-2.csv">Run 2</option>
+    </select>
+
+    <table id="table" border="1"></table>
+
+    <script>
+      const select = document.querySelector("#file");
+      const table = document.querySelector("#table");
+
+      async function renderCsv() {
+        const csv = await fetch(select.value).then(r => r.text());
+        const rows = csv.trim().split("\n").map(row => row.split(","));
+
+        table.replaceChildren(...rows.map(row => {
+          const tr = document.createElement("tr");
+          row.forEach(value => {
+            const cell = document.createElement("td");
+            cell.textContent = value;
+            tr.appendChild(cell);
+          });
+          return tr;
+        }));
+      }
+
+      select.addEventListener("change", renderCsv);
+      renderCsv();
+    </script>
+  </body>
+</html>
