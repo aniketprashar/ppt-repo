@@ -1,0 +1,13 @@
+plan_id,initiative,team,owner,priority,status,start_date,target_date,progress_pct
+PLN-101,Customer onboarding,Platform,Aditi,High,On track,2026-08-01,2026-09-12,79
+PLN-102,Usage analytics,Data,Neel,High,On track,2026-08-03,2026-09-05,88
+PLN-103,Mobile checkout,Commerce,Sana,Medium,In progress,2026-08-06,2026-09-20,56
+PLN-104,Knowledge base refresh,Support,Rohan,Low,Complete,2026-08-08,2026-09-01,100
+PLN-105,Partner API v2,Integrations,Meera,High,On track,2026-08-10,2026-09-28,69
+PLN-106,Quarterly security review,Security,Arjun,High,Complete,2026-08-12,2026-08-30,100
+PLN-107,"Billing, invoice exports",Finance,Divya,Medium,On track,2026-08-14,2026-09-16,73
+PLN-108,Accessibility audit,Design,Kabir,Medium,On track,2026-08-15,2026-09-10,84
+PLN-109,Regional pricing,Revenue,Isha,Low,In progress,2026-08-18,2026-10-01,31
+PLN-110,Incident playbooks,Operations,Vikram,Medium,Complete,2026-08-19,2026-09-08,100
+PLN-111,Vendor migration,Infrastructure,Anaya,High,In progress,2026-08-20,2026-10-15,48
+PLN-112,Customer health score,Success,Ravi,Medium,On track,2026-08-21,2026-09-25,64
