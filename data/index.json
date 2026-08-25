@@ -13,6 +13,24 @@
           "file": "data/run-2.csv"
         }
       ]
+    },
+    {
+      "id": "folder-1-demo",
+      "label": "Folder 1 · Planning demo",
+      "runs": [
+        {
+          "label": "Run 1 · Baseline",
+          "file": "data/folder-1-demo/run-1.csv"
+        },
+        {
+          "label": "Run 2 · Midpoint",
+          "file": "data/folder-1-demo/run-2.csv"
+        },
+        {
+          "label": "Run 3 · Latest",
+          "file": "data/folder-1-demo/run-3.csv"
+        }
+      ]
     }
   ]
 }
