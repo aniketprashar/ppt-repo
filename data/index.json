@@ -1,0 +1,18 @@
+{
+  "folders": [
+    {
+      "id": "existing-runs",
+      "label": "Existing runs",
+      "runs": [
+        {
+          "label": "Run 1",
+          "file": "data/run-1.csv"
+        },
+        {
+          "label": "Run 2",
+          "file": "data/run-2.csv"
+        }
+      ]
+    }
+  ]
+}
